@@ -1,28 +1,93 @@
-# Java-InventoryManagementSystem
 
-This project aims to develop an inventory management system using your choice of arrays or linked lists. The system should allow you to manage product information and perform various operations to maintain accurate stock levels.
+# 📦 Java Inventory Management System  
 
-**Data Structure:**
-Products: You can choose to represent products using either: 
-Array: Create an array of Product objects. Each Product object would contain attributes like product ID (unique identifier), name, price, quantity, etc.
-Linked List: Implement a linked list where each node holds a Product object with the same attributes.
- 
-**Functionalities:**
-**Add Product:** Implement a method to add a new product to the inventory. This might involve:
-a)Prompting the user for product details (name, price, quantity).
-b)Creating a new Product object with the provided information.
-c)Adding the object to the chosen data structure (array or linked list).
- 
-**Remove Product:** Develop a method to remove an existing product from the inventory. You might need to:
-a)Allow the user to search for a product by ID or name.
-b)Locate the product in the data structure (array or linked list).
-c)Remove the product object from the data structure.
+This project is a simple **Inventory Management System** implemented in **Java** using either **arrays** or **linked lists**. It allows users to manage product information efficiently, ensuring accurate stock tracking through various operations such as adding, removing, searching, and sorting products.  
 
-**Search Product:** Implement a method to search for a product based on various criteria:
-a)Search by product ID.
-b)Search by product name (potentially using a partial match).
- 
-**Sort Products:** Design methods to sort the inventory based on different criteria:
-a)Sort by product name (alphabetical order).
-b)Sort by product price (ascending or descending).
-c)Sort by product quantity (low to high or high to low).
+---
+
+## 🚀 Features  
+
+✅ **Add Product** – Add new products with details like **ID, name, price, and quantity**.  
+✅ **Remove Product** – Delete a product from inventory using **ID or name**.  
+✅ **Search Product** – Find products based on **ID or name (partial match supported)**.  
+✅ **Sort Products** – Organize inventory by **name, price, or quantity**.  
+
+---
+
+## 🛠️ Data Structure Options  
+
+You can choose to implement the system using:  
+
+- **Array**: Stores product details in a fixed-size array of `Product` objects.  
+- **Linked List**: Uses a **singly or doubly linked list** to dynamically manage inventory.  
+
+Each **Product** object contains:  
+📌 `productID` (Unique identifier)  
+📌 `name`  
+📌 `price`  
+📌 `quantity`  
+
+---
+
+## 📂 Project Structure  
+
+```
+📁 Java-InventoryManagementSystem
+ ├── 📄 InventorySystem.java      # Main inventory management class
+ ├── 📄 Product.java              # Product class with attributes and methods
+ ├── 📄 InventoryArray.java       # Implementation using arrays
+ ├── 📄 InventoryLinkedList.java  # Implementation using linked lists
+ ├── 📄 README.md                 # Project documentation
+ ├── 📄 LICENSE                   # License file
+```
+
+---
+
+## 📌 Functionalities  
+
+### 🔹 **1. Add Product**  
+- Prompt user for **name, price, and quantity**.  
+- Create a new `Product` object.  
+- Store the object in an **array or linked list**.  
+
+### 🔹 **2. Remove Product**  
+- Allow removal based on **Product ID or Name**.  
+- Locate and delete the product from inventory.  
+
+### 🔹 **3. Search Product**  
+- Find a product using **ID** or **name** (supports partial match).  
+
+### 🔹 **4. Sort Products**  
+- **Alphabetically** by name 📄  
+- **By price** (ascending/descending) 💲  
+- **By quantity** (low to high / high to low) 📊  
+
+---
+
+## 🏗️ Installation & Usage  
+
+1️⃣ **Clone the Repository**  
+```sh
+git clone https://github.com/yourusername/Java-InventoryManagementSystem.git
+cd Java-InventoryManagementSystem
+```
+
+2️⃣ **Compile & Run the Code**  
+```sh
+javac InventorySystem.java
+java InventorySystem
+```
+
+3️⃣ **Follow the On-Screen Menu** to **Add, Remove, Search, and Sort** products.  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
+
+---
+
+## 🤝 Contributions  
+
+Contributions are welcome! Feel free to submit a **pull request** or open an **issue**.  
